@@ -18,7 +18,7 @@ for link in soup.find_all('a',{'class':'__venue-name'}):
                 theater = link.getText()
                 if(theater.strip(' \t\n\r') == "Cinepolis: Bannerghatta Road"):
                         print "adasdasdA"
-                        fromaddr = "tcheck@vmware.com"
+                        fromaddr = "tcheck@domain.com"
                         toaddr = "abc@domain.com,cde@domain.com"
                         msg = MIMEMultipart()
                         msg['From'] = fromaddr
